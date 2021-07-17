@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Juju Bijus</title>
+  </head>
+
+  <body>
+    <header id="cabecalho">
+      <h1>JUJUBIJUS</h1>
+      <img
+        class="img-cabecalho"
+        src="./assets/promocao.png"
+        alt="logo liquidação"
+      />
+    </header>
+
+    <main>
+      <section id="container-formulario">
+        <h2>Cadastre-se para não perder nossas promoções</h2>
+        <form id="formulario">
+          <input
+            type="text"
+            name="name"
+            placeholder="Digite seu nome completo"
+            aria-label="Digite seu nome completo"
+            id="nomeCompleto"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Digite seu email"
+            aria-label="Digite seu email"
+            id="email"
+          />
+          <button class="button-form" type="submit">Cadastrar</button>
+        </form>
+      </section>
+      <h2 class="titulo-prod">Conheça os nossos produtos mais populares!</h2>
+      <section id="container-produtos">
+        <div class="card-produtos">
+          <img
+            class="img-card-produtos"
+            src="./assets/scrunchie.jpg"
+            alt="imagem scrunchie"
+          />
+          <h3>Scrunchies</h3>
+          <p>Acessórios para cabelos versáteis</p>
+        </div>
+        <div class="card-produtos">
+          <img
+            class="img-card-produtos"
+            src="./assets/brincos.jpg"
+            alt="imagem brincos"
+          />
+          <h3>Brincos</h3>
+          <p>Brincos femininos</p>
+        </div>
+        <div class="card-produtos">
+          <img
+            class="img-card-produtos"
+            src="./assets/pulseiras.jpg"
+            alt="imagem brincos"
+          />
+          <h3>Pulseiras</h3>
+          <p>Pulseiras femininas</p>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal-container">
+      <div class="modal" id="modal">
+        <p>Cadastro concluído com sucesso!</p>
+        <a id="fechaModal" href="#">X</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Desenvolvido por Paula Rodrigues da Silva durante o Hiring Coders #2.
+      </p>
+      <p>Direitos reservados.</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
